@@ -477,6 +477,7 @@ footer .creadit a {
 
 
 .modal-container {
+    /* height: 50%; */
     position: relative;
     background-color: #ffffff;
     color: var(--bg);
