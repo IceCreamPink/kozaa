@@ -245,14 +245,14 @@ body {
 .about,
 .prodak,
 .contact,
-.item {
+.jumbo {
     padding: 8rem 7% 1.4rem;
 }
 
 .about h2,
 .prodak h2,
 .contact h2,
-.item h2 {
+.jumbo h2 {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
@@ -261,7 +261,7 @@ body {
 .about h2 span,
 .prodak h2 span,
 .contact h2 span,
-.item h2 span {
+.jumbo h2 span {
     color: var(--primary);
 
 }
@@ -297,7 +297,7 @@ body {
 
 /* menu/produk */
 .prodak h2,
-.contact h2 .item h2 {
+.contact h2, .jumbo h2 {
     margin-bottom: 1rem;
 }
 
@@ -307,7 +307,7 @@ body {
 
 .prodak p,
 .contact p,
-.item p {
+.jumbo p {
     text-align: center;
     max-width: 30rem;
     margin: auto;
