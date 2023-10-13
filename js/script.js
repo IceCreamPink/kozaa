@@ -4,6 +4,7 @@ const navbarnav = document.querySelector(".navbar-nav");
 // ketika menu dik=clik
 document.querySelector("#menu").onclick = () => {
   navbarnav.classList.toggle("active");
+  e.preventDefault();
 };
 
 //toogle clas active search
