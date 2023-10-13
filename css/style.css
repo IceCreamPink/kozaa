@@ -394,13 +394,14 @@ body {
     display: flex;
     margin-top: 2rem;
     background-color: #222;
-
+    border-radius: 20px;
 }
 
 .contact .row .map {
     flex: 1 1 45rem;
     width: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .contact .row form {
@@ -416,6 +417,7 @@ body {
     background-color: var(--bg);
     border: 1px solid #eee;
     padding-left: 2rem;
+    border-radius: 15px;
 }
 
 .contact .row form .input-grup input {
