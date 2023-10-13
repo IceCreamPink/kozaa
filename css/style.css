@@ -181,7 +181,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../img/bg2.jpeg');
+    background-image: url('../img/bg0.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -233,6 +233,12 @@ body {
     background-color: #f4672a;
     border-radius: 20px;
     box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    transition: 0.3S;
+}
+
+.hero .conten .cta:hover {
+    background-color: var(--text);
+    color: var(--bg);
 }
 
 /* tentang kami */
@@ -275,6 +281,10 @@ body {
 .about .row .conten {
     flex: 1 1 35rem;
     padding: 0 1rem;
+}
+
+.about .row .conten h3 span {
+    color: var(--text);
 }
 
 .about .row .conten h3 {
@@ -354,7 +364,15 @@ body {
     transition: bottom 0.5s ease;
     z-index: 2;
     opacity: 0;
+    transition: 0.3s;
 }
+
+.prodak .prodak-card .buy-button:hover,
+.prodak .prodak-card .preview-button:hover {
+    background-color: var(--text);
+    color: var(--bg);
+}
+
 
 .prodak-card:hover {
     transform: scale(1.05);
@@ -417,6 +435,12 @@ body {
     color: #fff;
     background-color: var(--primary);
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact .row form .btn:hover {
+    background-color: var(--text);
+    color: var(--bg);
 }
 
 
@@ -477,7 +501,7 @@ footer .creadit a {
 
 
 .modal-container {
-    /* height: 50%; */
+    height: 30%;
     position: relative;
     background-color: #ffffff;
     color: var(--bg);
@@ -486,7 +510,9 @@ footer .creadit a {
     border: 1px solid #666;
     width: 80%;
     animation: animatemodal 0.5s;
+    transition: 0.3s;
 }
+
 
 /* animasi */
 @keyframes animatemodal {
@@ -512,7 +538,7 @@ footer .creadit a {
 }
 
 .modal-conten img {
-    height: 20rem;
+    height: 29rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
@@ -531,7 +557,13 @@ footer .creadit a {
     color: #fff;
     margin-top: 1rem;
     padding: 1rem 1.6rem;
-    border-radius: 50px
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.modal-conten a:hover {
+    background-color: var(--text);
+    color: var(--bg);
 }
 
 /* Leptop */
@@ -566,7 +598,7 @@ footer .creadit a {
     }
 
     .navbar .navbar-nav a {
-        color: var(--bg);
+        color: var(--text);
         display: block;
         margin: 1.5rem;
         padding: 0.5rem;
@@ -609,6 +641,22 @@ footer .creadit a {
         font-size: 1.6rem;
     }
 
+    .jumbo .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jumbo h2,
+    .jumbo p {
+        text-align: center;
+    }
+
+    .jumbo img.prodak-card-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
+
     .prodak p {
         font-size: 1.2rem;
     }
@@ -628,6 +676,7 @@ footer .creadit a {
     .modal-conten {
         flex-wrap: wrap;
     }
+
 
 }
 
