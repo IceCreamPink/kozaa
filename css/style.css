@@ -322,6 +322,11 @@ body::before {
     font-weight: 100;
     line-height: 1.6;
 }
+.jumbo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 .prodak .prodak-card-img {
     width: 250px;
